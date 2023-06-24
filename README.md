@@ -20,5 +20,8 @@ Models and Evaluation: Four models, namely Logistic Regression, K Nearest Neighb
 were implemented for predictive modeling. Performance comparisons were made using the ROC AUC metric. Logistic Regression achieved the highest AUC of 66%
 and had the minimal misclassification of default loans.
 
+Results:Logistic Regression achieved a moderate precision of 30.5% and a high recall of 70%, resulting in an F1 score of 42.5%.
+Among the other models, the Random Forest Classifier had the highest precision of 57.1%, but with a very low recall of 1.6%, yielding an F1 score of 3.1%.
+
 Conclusion: Based on the results, Logistic Regression was selected as the best model for predicting loan defaults. The model's accuracy and focus 
 on minimizing misclassifications of default loans make it suitable for assisting banks in their decision-making process.
